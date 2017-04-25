@@ -22,6 +22,8 @@ build:
   steps:
     # A step that executes `npm install` command
     - valery1707/gradle@0.1.9
+      code: |
+        gradle .
   after-steps:
     - script:
       name: "after-steps2"
